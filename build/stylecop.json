@@ -3,6 +3,7 @@
 
     "settings": {
         "documentationRules": {
+            "copyrightText": "Copyright (c) {companyName}. See LICENSE file for more information.",
             "companyName": "William Kent",
             "fileNamingConvention": "metadata",
             "xmlHeader": false

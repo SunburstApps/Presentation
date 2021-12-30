@@ -1,8 +1,6 @@
-// Copyright (c) William Kent. All rights reserved.
+// Copyright (c) William Kent. See LICENSE file for more information.
 
 namespace System.Windows.Markup;
-
-using System.Diagnostics.CodeAnalysis;
 
 [AttributeUsage(AttributeTargets.Class)]
 public sealed class ContentWrapperAttribute : Attribute

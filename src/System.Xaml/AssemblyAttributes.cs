@@ -1,4 +1,4 @@
-﻿// Copyright (c) William Kent. All rights reserved.
+﻿// Copyright (c) William Kent. See LICENSE file for more information.
 
 using System.Diagnostics.CodeAnalysis;
 

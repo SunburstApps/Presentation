@@ -1,10 +1,7 @@
-// Copyright (c) William Kent. All rights reserved.
+// Copyright (c) William Kent. See LICENSE file for more information.
 
 namespace System.Windows.Markup;
 
-using System.Diagnostics.CodeAnalysis;
-
-[SuppressMessage("StyleCop.CSharp.DocumentationRules", "SA1600", Justification = "Will return once I know what it does")]
 public interface INameScope
 {
     void RegisterName(string name, object scopedElement);
