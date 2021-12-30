@@ -10,6 +10,7 @@
 
   <PropertyGroup Condition="'$(EnableNETAnalyzers)' == 'true'">
     <CodeAnalysisRuleSet>$(MSBuildThisFileDirectory)StyleCop.ruleset</CodeAnalysisRuleSet>
+    <NoWarn>SA1000;$(NoWarn)</NoWarn>
   </PropertyGroup>
 
   <ItemGroup Condition="'$(EnableNETAnalyzers)' == 'true'">
