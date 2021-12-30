@@ -10,7 +10,8 @@
         },
 
         "orderingRules": {
-            "systemUsingDirectivesFirst": true
+            "systemUsingDirectivesFirst": true,
+            "usingDirectivesPlacement": "outsideNamespace"
         }
     }
 }
